@@ -1,0 +1,23 @@
+.container_home h1 {
+  font-size: 1.5rem;
+}
+
+.container_home ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.subtitle {
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+}

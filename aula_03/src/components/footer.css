@@ -1,0 +1,10 @@
+.app_footer {
+  background-color: #ed1b2e;
+  margin-top: 40px;
+  padding: 40px;
+}
+
+.app_footer p {
+  text-align: center;
+  color: #fff;
+}
