@@ -1,0 +1,16 @@
+.search_container {
+  text-align: center;
+
+  margin-top: 30px;
+}
+
+.search_container .container_input {
+  padding: 30px 0;
+}
+
+.container_input input {
+  padding: 4px;
+  width: 30%;
+  margin-right: 10px;
+  border-radius: 4px;
+}

@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+header h1 {
+  color: #f57d00;
+  font-family: "inter";
+  font-weight: 800;
+}
+
+header nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+}
+
+header nav ul li {
+  cursor: pointer;
+  transition: 0.3s ease all;
+  user-select: none;
+}
+
+header nav ul li:hover {
+  color: #f57d00;
+}

@@ -1,0 +1,17 @@
+.btn {
+  background-color: rebeccapurple;
+  border: 0;
+  padding: 5px;
+  border-radius: 3px;
+  color: #fff;
+  transition: 0.3s ease all;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #000000;
+  border: 0;
+  padding: 5px;
+  border-radius: 3px;
+  color: #fff;
+}

@@ -1,0 +1,11 @@
+h1 {
+  color: blue;
+}
+
+.home_container_category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 50px;
+}
