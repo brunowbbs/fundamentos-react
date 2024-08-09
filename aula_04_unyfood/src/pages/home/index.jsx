@@ -2,6 +2,8 @@ import CardCategory from "../../components/card-category";
 import Header from "../../components/header";
 import Search from "../../components/search";
 
+import Restaurants from "../../components/restaurants";
+
 import "./styles.css";
 
 export default function Home() {
@@ -16,8 +18,7 @@ export default function Home() {
         <CardCategory title="Bebidas" color="#009432" />
       </div>
 
-      <h1>Hello Home</h1>
-      <p>Hello World</p>
+      <Restaurants />
     </div>
   );
 }
