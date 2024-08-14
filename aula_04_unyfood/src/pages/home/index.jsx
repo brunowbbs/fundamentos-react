@@ -1,8 +1,9 @@
 import CardCategory from "../../components/card-category";
 import Header from "../../components/header";
 import Search from "../../components/search";
-
 import Restaurants from "../../components/restaurants";
+import Informations from "../../components/informations";
+import Footer from "../../components/footer";
 
 import "./styles.css";
 
@@ -19,6 +20,12 @@ export default function Home() {
       </div>
 
       <Restaurants />
+
+      <Informations />
+
+      <Footer />
     </div>
   );
 }
+
+//STATES
