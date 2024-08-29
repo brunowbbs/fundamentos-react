@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body,
+input,
+select,
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #050915;
+  color: #fff;
+}
+
+table,
+th,
+td {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+}
