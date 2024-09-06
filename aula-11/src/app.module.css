@@ -1,0 +1,41 @@
+.container {
+  padding: 16px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+}
+
+.form input {
+  flex: 1;
+  height: 30px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.form button {
+  flex: 1;
+  height: 30px;
+  border-radius: 5px;
+  background: #1a2edf;
+  color: #fff;
+  border: none;
+  max-width: 200px;
+}
+
+.container_table {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.table {
+  flex: 1;
+  margin-top: 20px;
+}
+
+.center {
+  text-align: center;
+}
