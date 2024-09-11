@@ -1,0 +1,30 @@
+.container {
+  padding: 20px;
+}
+
+.container_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.float_button {
+  background-color: #f9ca24;
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 50px 52px 54px -24px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+
+  transition: 0.3s ease all;
+}
+
+.float_button:hover {
+  background-color: #d1ac27;
+  color: #fff;
+}
